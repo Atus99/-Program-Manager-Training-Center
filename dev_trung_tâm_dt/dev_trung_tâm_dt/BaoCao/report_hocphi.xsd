@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="report_hocphi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ma_monhoc" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_monhoc" type="xs:string" minOccurs="0" />
+              <xs:element name="so_buoihoc" type="xs:int" minOccurs="0" />
+              <xs:element name="thoi_gian_buoihoc" type="xs:int" minOccurs="0" />
+              <xs:element name="hoc_phi" type="xs:int" minOccurs="0" />
+              <xs:element name="mo_ta" type="xs:string" minOccurs="0" />
+              <xs:element name="yeu_cau" type="xs:string" minOccurs="0" />
+              <xs:element name="ghi_chu" type="xs:string" minOccurs="0" />
+              <xs:element name="trang_thai" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
